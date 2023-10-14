@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.icon-container {
+    background-color: var(--bs-secondary);
+    transition: all 500ms;
+}
+
+.icon-container:hover {
+    background-color: var(--bs-light);
+}
+
+.icon-container-active {
+    background-color: var(--bs-light);
+}
+
+.icon-container>.bi {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--bs-light);
+    transition: all 400ms;
+}
+
+.icon-container:hover .bi {
+    color: var(--bs-dark);
+}
+
+.icon-container-active>.bi {
+    color: var(--bs-dark);
+}
+
+.content-container{
+    background-image: linear-gradient(120deg, #fdfbfb0e 0%, #ebedee62 100%);
+}
